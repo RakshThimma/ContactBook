@@ -59,7 +59,7 @@ const ContactList = () => {
             </div>
             <div>{contact.number}</div>
             <div className="truncate max-w-[150px] overflow-hidden">
-              <a href={contact.linkdn} target="_blank">{contact.linkdn}</a>*
+              <a href={contact.linkdn} target="_blank">{contact.linkdn}</a>
             </div>
             <div>Active</div>
             <Link to={`/edit?id=${contact.id}`}>
