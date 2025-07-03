@@ -11,7 +11,7 @@ const Random = () => {
           "https://www.themealdb.com/api/json/v1/1/random.php"
         );
         const json = await data.json();
-        console.log(json.meals[0]);
+        // console.log(json.meals[0]);
         setRandom(json.meals[0])
       };
       const {strMealThumb , strMeal} = random
